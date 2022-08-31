@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  list-style: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  background: #ddd;
+  color: #333;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 3rem;
+  width: 90%;
+  max-width: 500px;
+  margin: 3rem 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.7rem;
+}
+
+.btn-primary {
+  background: #173d8f;
+  color: #fff;
+}
+
+.btn-warning {
+  background: #ffa808;
+  color: #333;
+}
+
+.btn-danger {
+  background: #c50e0e;
+  color: #fff;
+}
+
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+}
+
+table {
+  margin-top: 4rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  padding: 1rem;
+  border: 1px solid #333;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 0.6rem;
+  padding: 0.7rem 1rem;
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #173d8f;
+}
+
+button {
+  cursor: pointer;
+}
+
+.error-msg {
+  color: #fd1010;
+  font-size: 13px;
+  margin-top: 0.8rem;
+}
+
+.invalid {
+  border: 1px solid #fd1010;
+}
+
+.alert {
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+
+.alert-success {
+  background: #a8ffa8;
+  color: #146314;
+  margin-top: 3rem;
+}
